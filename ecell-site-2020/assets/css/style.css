@@ -702,7 +702,6 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -717,7 +716,7 @@ section {
 }
 
 .services .icon {
-  position: absolute;
+  position: relative;
   left: -20px;
   top: calc(50% - 30px);
 }
@@ -729,10 +728,10 @@ section {
 }
 
 .services .title {
-  margin-left: 40px;
+  text-align: center;
+  margin: 10px 10px 10px 30px;
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .services .title a {
