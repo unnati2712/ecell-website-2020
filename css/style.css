@@ -349,6 +349,71 @@ body{
     height: 190px;
 }
 
+/*---------------------reach-us------------------------*/
+.reach-us{
+    position: fixed;
+    z-index: 20;
+    right: 10px;
+    bottom: 10px;
+}
+.reach-us-button{
+    border-radius: 5px;
+    background: #cc6a43;
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    box-shadow: #000 1px 1px 2px 2px;
+}
+.reach-us-button h4{
+    padding: 0px;
+    margin: 0px;
+    color:#fff;
+    font-size: 1.3rem;
+    display: inline;
+    vertical-align: center;
+    padding-right: 5px;
+}
+.reach-us img{
+    width: 20px;
+    height: 20px;
+}
+.reach-us .content{
+    height: 500px;
+    position: absolute;     
+    bottom: -5px;
+    display: block;
+    width: 400px;
+    right: -5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.content .close{
+    cursor: pointer;
+}
+.content .close svg{
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+}
+.content .head{
+    height: 15%;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #000;
+}
+.content .head .section-subhead{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.show-reachus{
+    animation: show-reach-us 0.7s linear forwards;
+}
+.hide-reachus{
+    animation: hide-reach-us 0.7s linear forwards;
+}
 
 /*-----------------------footer------------------------*/
 .footer{

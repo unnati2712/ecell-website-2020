@@ -14,3 +14,35 @@
         transform: translate(0%, 0%);
     }
 }
+@keyframes show-reach-us{
+    0%{
+        height: 0px;
+        display: none;
+        right: -800px;
+    }
+    1%{
+        height: 0px;
+        display: block;
+        right: -5px;
+    }
+    100%{
+        height: 500px;
+        display: block;
+    }
+}
+@keyframes hide-reach-us{
+    0%{
+        height: 500px;
+        display: block;
+    }
+    99%{
+        right: -5px;
+        height: 0px;
+        display: block;
+    }
+    100%{
+        right: -800px;
+        height: 0px;
+        display: none;
+    }
+}
