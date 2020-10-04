@@ -4,12 +4,16 @@
     --primary-color: #000d80;  
     --secondary-color: #CC6A43;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     overflow-x: hidden;
-    background: #fff;}
+    background: #fff;
+}
 .navbar{
     width: 100vw;
     color: blue;
@@ -224,6 +228,10 @@ body{
     background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
+    background: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 .team-details:before{
 	content: '';
@@ -295,7 +303,7 @@ body{
 }
 .team-details .text-muteded {
 	font-size: 0.9rem;
-	color:#7f8299;	
+	color:#cc6a43;	
 }
 .team-details .team-list-inline {
 	margin: 0;
@@ -310,8 +318,8 @@ body{
 	background-color: #fff;
 	width: 30px;
     height: auto;
-	border-radius: 0px 5px 5px 0px;
-	text-align: center;
+    text-align: center;
+    margin-top: 1px;
 	transform-origin: left;
 	transform: perspective(1000px) rotateY(90deg);
 	transition: 0.5s;
