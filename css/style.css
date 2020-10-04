@@ -35,7 +35,7 @@ body{
     color: #fff;
     background-color: #1f2346;
     padding: 10px 5px 10px 5px;
-    box-shadow: #1f2346 2px 3px;
+    box-shadow: #1f2346 5px 5px;
 }
 .navbar .bars svg{
     color: #fff;
@@ -409,10 +409,10 @@ body{
     padding-top: 20px;
 }
 .show-reachus{
-    animation: show-reach-us 0.7s linear forwards;
+    animation: show-reach-us 0.45s linear forwards;
 }
 .hide-reachus{
-    animation: hide-reach-us 0.7s linear forwards;
+    animation: hide-reach-us 0.45s linear forwards;
 }
 
 /*-----------------------footer------------------------*/
