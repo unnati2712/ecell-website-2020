@@ -252,15 +252,24 @@
         padding-left: 0px;
         padding-top: 40px;
     }
-    .footer .contacts{
+    .footer .explore{
         padding-left: 0px;  
     }
     .footer .get-notified form input{
         width: 60%;
     }
+    .footer .explore .social-icons{
+        margin-left: auto;
+    }
+    .footer .explore .social-icons div{
+        margin-right: 50px;
+    }
     .footer .get-notified form button{
         width: 40%;
         padding: 20px 20px;
+    }
+    .footer .explore > div.row .col{
+        text-align: center;
     }
     .copyright h4{
         font-size: 1.05rem;
@@ -279,15 +288,26 @@
         padding-left: 0px;
         padding-top: 40px;
     }
-    .footer .contacts{
+    .footer .explore{
         padding-left: 0px;  
     }
     .footer .get-notified form input{
-        width: 70%;
+        width: 60%;
     }
     .footer .get-notified form button{
-        width: 30%;
+        width: 40%;
     }
+    .footer .explore .social-icons{
+        margin: auto;
+        margin-top: 40px;
+    }
+    .explore .email{
+        margin-top: 10px;
+    }
+    .footer .explore > div.row .col{
+        text-align: center;
+    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -297,8 +317,16 @@
     .footer .get-notified{
         padding-left: 0px;
     }
-    .footer .contacts{
+    .footer .explore{
         padding-left: 0px;  
+    }
+    .footer .explore .social-icons div{
+        margin-right: 50px;
+    }
+    .explore .email{
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 0px;
     }
 }
 

@@ -550,8 +550,8 @@ body{
 .reach-us{
     position: fixed;
     z-index: 20;
-    right: 10px;
-    bottom: 10px;
+    right: 20px;
+    bottom: 20px;
 }
 .reach-us-button{
     border-radius: 5px;
@@ -692,17 +692,43 @@ body{
 .footer .get-notified form button:hover{
     background: #b54d23;
 }
-.footer .contacts{
+.footer .explore{
     padding-left: 50px;
     padding-right: 0px;
     padding-top: 40px;
     color: #fff;
 }
-.footer .contacts .section-subhead{
+.footer .explore .section-subhead{
     margin-bottom: 30px;
 }
-.footer .contacts .numbers{
-    letter-spacing: 1px;
+.footer .explore > div.row h5{
+    font-size: 1rem;
+}
+.footer .explore > div.row a{
+    color: var(--secondary-color);
+}
+.footer .explore .social-icons{
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 1rem;
+    color: #fff;
+}
+.explore .email{
+    margin-top: -10px;
+}
+.explore .email h4{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 100%;
+}
+.explore .email h4 span{
+    font-weight: 900;
+    color: var(--secondary-color);
+}
+.footer .explore .social-icons div{
+    margin-right: 60px;
 }
 /*----------------------copyright------------------------*/
 .copyright{
@@ -711,7 +737,7 @@ body{
     background: #0a0a0a;
 }
 .copyright h4{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     color: #fff;
 }
