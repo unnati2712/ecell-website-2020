@@ -216,6 +216,160 @@ body{
     padding-right: 0;
 }
 
+/*------------------------------------------------------------
+#  Initiatives
+--------------------------------------------------------------*/
+.initiatives{
+  background-color: #007bff;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+.initiatives .section-head{
+    padding-bottom: 10%;
+    padding-top: 0;
+}
+.initiatives .main{
+  width: 100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.initiatives .testi{
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 0 20px -15px #030380;
+  transition: transform .8s;
+}
+.initiatives .testi-logo{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+  background: #fff;
+  border: 18px solid #007bff;
+}
+.initiatives .testi-logo img{
+  width: 50px;
+  margin-top: 20px;
+  transition: transform 1s;
+}
+.initiatives .testi h4{
+  height: 35px;
+  width: 80%;
+  background: #fff;
+  margin: 50px auto;
+  position: relative;
+}
+.initiatives .testi h4::after{
+  content: '';
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right,#fff,#007bff);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: -1;
+}
+.initiatives .testi h4::before{
+  content: '';
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right,#007bff,#fff);
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+.initiatives .shadowOne{
+  height: 200px;
+  width: 80%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 10%;
+  z-index: -1;
+  box-shadow: 0 0 20px -15px #030380;
+  transition: transform .8s;
+}
+.initiatives .shadowTwo{
+  height: 200px;
+  width: 64%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 18%;
+  z-index: -2;
+}
+.initiatives .main:hover .testi{
+  transform: translateY(-50px);
+}
+.initiatives .main:hover .shadowOne{
+  transform: translateY(-25px);
+}
+.initiatives .main:hover img{
+  transform: rotate(360deg);
+}
+
+/*testimonials style*/
+#seniors-testimonial{
+    padding: 40px 0;
+}
+.testimonial img{
+    max-width: 159px;
+    margin: 0 auto 0 auto;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 13px;
+    border-radius: 100px;
+}
+.testimonial blockquote{
+    border: 0;
+    font-family: tahoma;
+    font-style: italic;
+    color: blue;
+    padding: 5px 150px;
+    position: relative;
+}
+.testimonial blockquote:before,
+.testimonial blockquote:after{
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.testimonial blockquote::before{
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+.testimonial blockquote::after{
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+.testimonial-author p{
+    color: blue;
+    font-size: 17px;
+}
+.testimonial-author p strong{
+    display: block;
+}
+.testimonial h3{
+    color: blue;
+    text-transform: uppercase;
+}
+
 /*----------------team section------------------------*/
 .team-section{
     background: #7F8299;
