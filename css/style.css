@@ -103,6 +103,16 @@ body{
 .make-black{
     background: #000;
 }
+.navslider .social-icons{
+    position: relative;
+    top: 0;
+    margin-top: 80px;
+    margin-left: 2rem;
+    color: #fff;
+}
+.navslider .social-icons div{
+    margin-right: 20px;
+}
 /*---------------------header styles---------------------*/
 .header{
     width: 100vw;
@@ -378,6 +388,34 @@ body{
 .testimonial h3{
     color: blue;
     text-transform: uppercase;
+}
+/*--------------------gallery--------------------------------*/
+.gallery{
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.gallery .section-head{
+    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gallery .image{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: var(--secondary-color) 5px 5px;
+}
+.gallery .image:hover{
+    animation: gallery-imganim 0.3s linear;
+}
+.gallery .image img{
+    width: auto;
+    height: 185px;
 }
 
 /*----------------team section------------------------*/

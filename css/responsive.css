@@ -43,6 +43,7 @@
     }
     .navbar .bars{
         right: 2rem;
+        transform: scale(1.2);
     }
 }
 
@@ -52,6 +53,7 @@
     }
     .navbar .bars{
         right: 2rem;
+        transform: scale(1.4);
     }
 }
 /*--------------------header-----------------------*/
@@ -131,6 +133,10 @@
     }
 	.header-content .head{
         font-size: 2.3rem;
+    }
+    .header-content .subhead{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
     }
 }
 /*-------------------about section---------------------------*/
