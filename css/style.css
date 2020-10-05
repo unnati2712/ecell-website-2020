@@ -4,12 +4,16 @@
     --primary-color: #000d80;  
     --secondary-color: #CC6A43;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     overflow-x: hidden;
-    background: #fff;}
+    background: #fff;
+}
 .navbar{
     width: 100vw;
     color: blue;
@@ -29,6 +33,9 @@ body{
     z-index: 100;
     cursor: pointer;
     color: #fff;
+    background-color: #1f2346;
+    padding: 10px 5px 10px 5px;
+    box-shadow: #1f2346 5px 5px;
 }
 .navbar .bars svg{
     color: #fff;
@@ -372,10 +379,195 @@ body{
 
 /*----------------team section------------------------*/
 .team-section{
-    background: #7F8299;
-    width: 100%;
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.team-details:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 160%;
+	width: 100%;
+	height: 100%;
+	background: rgba(225,225,225,.2);
+	z-index: 1;
+	transform: skewX(45deg);
+	transition: 0.6s;
+}
+.team-section .section-head{
+    margin-bottom: auto;
+    margin-top: 20px;
+}
+.team-subhead h3{
+    font-size: 1.4rem;
+}
+.team-subhead .underline{
+    width: 40%;
+    margin-left: 30%;
+}
+.members{
+    margin-top: 30px;
+    box-shadow: #CC6A43 5px 5px;
+}
+.team-details:hover:before{
+	
+	left:-160%;
+	transition-delay: 0.7s;
 }
 
+.members .team-details {
+	overflow: hidden;
+	position: relative;
+	width: 200px;
+	height: 185px;
+	background: #fff;	
+}
+.team-img {
+	width: 100%;
+	height:100%;
+	filter: grayscale(100%);
+	transition: 2s;	
+}
+.team-details:hover .team-img {
+	filter: grayscale(0%);
+	transform: scale(1.1);
+	
+}
+.team-details .team-name{
+	position:absolute;
+	padding: 2px 0px;
+	margin:0px;
+	width:100%;
+	font-size: 1rem;
+	bottom: -15px;
+	background-color: #fff;
+	text-align: center;
+	transform-origin: bottom;
+	transform: perspective(1000px) rotateX(90deg);
+	transition: 0.5s;
+	
+}
+.team-details:hover .team-name{
+	transform: perspective(1000px) rotateX(0deg);
+}
+.team-details .text-muteded {
+	font-size: 0.9rem;
+	color:#cc6a43;	
+}
+.team-details .team-list-inline {
+	margin: 0;
+	padding:0;
+	top: 38%;
+	left: 0;
+	position: absolute;
+	
+}
+.team-details .team-list-inline li{
+	list-style-type: none;
+	background-color: #fff;
+	width: 30px;
+    height: auto;
+    text-align: center;
+    margin-top: 1px;
+	transform-origin: left;
+	transform: perspective(1000px) rotateY(90deg);
+	transition: 0.5s;
+}
+.team-details:hover .team-list-inline li:nth-child(1){
+	transform: perspective(1000px) rotateY(0deg);
+	transition-delay: 0.5s;
+}
+.team-details:hover .team-list-inline li:nth-child(2){
+	transform: perspective(1000px) rotateY(0deg);
+	transition-delay: 0.5s;
+}
+.team-details .team-list-inline li .fa{
+	color:black;
+	z-index: 2;
+}
+.president .team-details{
+    width: 250px;
+    height: 230px;
+}
+.vice-president .team-details{
+    width: 230px;
+    height: 210px;
+}
+.domain-heads .team-details{
+    width: 210px;
+    height: 190px;
+}
+
+/*---------------------reach-us------------------------*/
+.reach-us{
+    position: fixed;
+    z-index: 20;
+    right: 10px;
+    bottom: 10px;
+}
+.reach-us-button{
+    border-radius: 5px;
+    background: #cc6a43;
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    box-shadow: #000 1px 1px 2px 2px;
+}
+.reach-us-button h4{
+    padding: 0px;
+    margin: 0px;
+    color:#fff;
+    font-size: 1.3rem;
+    display: inline;
+    vertical-align: center;
+    padding-right: 5px;
+}
+.reach-us img{
+    width: 20px;
+    height: 20px;
+}
+.reach-us .content{
+    height: 500px;
+    position: absolute;     
+    bottom: -5px;
+    display: block;
+    width: 400px;
+    right: -5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.content .close{
+    cursor: pointer;
+}
+.content .close svg{
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+}
+.content .head{
+    height: 15%;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #000;
+}
+.content .head .section-subhead{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.show-reachus{
+    animation: show-reach-us 0.45s linear forwards;
+}
+.hide-reachus{
+    animation: hide-reach-us 0.45s linear forwards;
+}
 
 /*-----------------------footer------------------------*/
 .footer{

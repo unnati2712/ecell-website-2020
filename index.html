@@ -14,8 +14,39 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
-    <div class="navbar">
-        <a href="/" class="navbar-brand" >
+    <div class="reach-us">
+        <div class="reach-us-button">
+            <h4>Contact US</h4>
+            <img src="img/logos/phone-call.png" alt="">
+        </div>
+        <div class="content hide-reachus">
+            <div id="close-reach-us" class="close">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </div>
+            <div class="head">
+                <h4 class="section-subhead">Reach Us</h4>
+            </div>
+            <form action="">
+                <div class="form-field">
+                    <input type="text" name="name" placeholder="Your Name" autocomplete="off" required>
+                </div>
+                <div class="form-field">
+                    <input type="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-field">
+                    <input type="number" name="mobileno" placeholder="Contact No.(Optional)" autocomplete="off">
+                </div>
+                <div class="form-field">
+                    <textarea type="text" name="message" placeholder="Your Message" rows="10" cols="40" autocomplete="off" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <div id="top" class="navbar">
+        <a href="https://ecell-kiet.in" class="navbar-brand" >
             <img src="img/logos/logo-ecell.png" alt="ecell logo" loading="lazy">
         </a>
         <div id="open-nav" class="bars">
@@ -32,10 +63,10 @@
             </svg>
         </div>
         <div class="nav-options">
-            <div><a href="#">Home</a></div>
-            <div><a href="#">About</a></div>
+            <div><a href="#top">Home</a></div>
+            <div><a href="#about">About</a></div>
             <div><a href="#">Initiatives</a></div>
-            <div><a href="#">Team</a></div>
+            <div><a href="team.html">Team</a></div>
             <div><a href="#">Contact Us</a></div>
             <div><a href="./gallery.html">Gallery</a></div>
         </div>
@@ -68,7 +99,7 @@
             </div>
         </div>
     </div>
-    <section class="about-section">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="section-head">
                 <h3>About Us</h3>
@@ -227,6 +258,7 @@
 
 
     <section class="footer">
+    <section id="footer" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 map">

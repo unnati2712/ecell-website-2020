@@ -25,3 +25,13 @@ document.querySelector("body").addEventListener("scroll", function(){
   }
   console.log(document.querySelector("body").scrollTop);
 });
+document.querySelector(".reach-us .reach-us-button").addEventListener("click", function(){
+  let target = document.querySelector(".reach-us .content");
+  target.classList.add("show-reachus");
+  target.classList.remove("hide-reachus");
+});
+document.querySelector(".content #close-reach-us").addEventListener("click", function(){
+  let target = document.querySelector(".reach-us .content");
+  target.classList.add("hide-reachus");
+  target.classList.remove("show-reachus");
+});
