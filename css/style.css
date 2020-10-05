@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 :root{
     --primary-color: #000d80;  
     --secondary-color: #CC6A43;
@@ -12,7 +12,7 @@ html{
 }
 body{
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
     position: relative;
     overflow-x: hidden;
     background: #fff;
@@ -415,6 +415,8 @@ body{
 }
 .members{
     margin-top: 30px;
+    margin-left: 20px; 
+    margin-right: 20px;
     box-shadow: #CC6A43 5px 5px;
 }
 .team-details:hover:before{

@@ -1,11 +1,40 @@
 /*-------------------navbar---------------------------*/
 @media (max-width: 575px){
-	
+	.navbar .navbar-brand img{
+        height: 50px;
+        margin-left: 0px;
+    }
+    .navbar .bars{
+        right: 0.5rem;
+    }
+    .navslider .nav-options{
+        margin-top: 6rem;
+    }
+    .navslider .nav-options div{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .navslider{
+        width: 260px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+	.navbar .navbar-brand img{
+        height: 60px;
+        margin-left: 0px;
+    }
+    .navbar .bars{
+        right: 2rem;
+        transform: scale(1.2);
+    }
+    .navslider .nav-options div{
+        font-size: 1.3rem;
+        margin: 1.3rem;
+    }
+    .navslider{
+        width: 260px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){   
@@ -15,10 +44,6 @@
     .navbar .bars{
         right: 2rem;
     }
-    /* .navslider .nav-options{
-        margin-top: 4rem;
-        margin-left: 1rem;
-    } */
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -31,12 +56,47 @@
 }
 /*--------------------header-----------------------*/
 @media (max-width: 575px){
-	
+	.header{
+        min-height: auto;   
+    }
+    .header-content{
+        margin-left: 5%;
+        margin-top: 40vh;
+    }
+	.header-content .head{
+        font-size: 1.45rem;
+    }
+    .header-content .subhead{
+        font-size: 1rem;
+    }
+    .social-icons{
+        margin-left: 92vw;
+    }
+    .social-icons a span{
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+	.header{
+        min-height: auto;   
+    }
+    .header-content{
+        margin-left: 9.5%;
+        margin-top: 40vh;
+    }
+	.header-content .head{
+        font-size: 2.15rem;
+    }
+    .header-content .subhead{
+        font-size: 1rem;
+    }
+    .social-icons{
+        margin-left: 92vw;
+    }
+    .social-icons a span{
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -75,12 +135,33 @@
 }
 /*-------------------about section---------------------------*/
 @media (max-width: 575px){
-	
+	.about-section{
+        padding-bottom: 50px;
+    }
+	.about-section .row{
+        padding: 0px 30px 10px 30px;
+        font-size: 1.2rem;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    .row-half .col-md-6:last-child{
+        padding: 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+    .about-section{
+        padding-bottom: 50px;
+    }
+	.about-section .row{
+        padding: 0px 30px 10px 30px;
+        font-size: 1.4rem;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    .row-half .col-md-6:last-child{
+        padding: 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -145,12 +226,62 @@
 }
 /*-------------------reach us, footer, copyright---------------------------*/
 @media (max-width: 575px){
-	
+	.reach-us{
+        right: 10px;
+        bottom: 10px;
+    }
+    .reach-us .content{
+        width: 360px;
+    }
+    .reach-us-button h4{
+        font-size: 1.1rem;
+    }
+    .content .email h4{
+        font-size: 1rem;
+    }
+    .footer iframe{
+        padding-right: 0px;
+    }
+    .footer .get-notified{
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .footer .contacts{
+        padding-left: 0px;  
+    }
+    .footer .get-notified form input{
+        width: 60%;
+    }
+    .footer .get-notified form button{
+        width: 40%;
+        padding: 20px 20px;
+    }
+    .copyright h4{
+        font-size: 1.05rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+    .reach-us{
+        right: 30px;
+        bottom: 25px;
+    }
+    .footer iframe{
+        padding-right: 0px;
+    }
+    .footer .get-notified{
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .footer .contacts{
+        padding-left: 0px;  
+    }
+    .footer .get-notified form input{
+        width: 70%;
+    }
+    .footer .get-notified form button{
+        width: 30%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
