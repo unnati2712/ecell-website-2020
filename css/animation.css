@@ -46,3 +46,14 @@
         display: none;
     }
 }
+@keyframes gallery-imganim{
+    0%{
+        box-shadow: var(--secondary-color) 5px 5px;
+    }
+    50%{
+        box-shadow: var(--secondary-color) 10px 10px;
+    }
+    100%{
+        box-shadow: var(--secondary-color) 5px 5px;
+    }
+}
