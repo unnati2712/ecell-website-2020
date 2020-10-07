@@ -881,6 +881,60 @@ section {
     text-align: center;
     color: #fff;
 }
+/*----------------------loader--------------------------------*/
+.loader > div{
+    background: #000;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.loader .loader-outer{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+.loader .gradient{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 220;
+    transform: translate(-50%, -50%);
+    background: rgb(204,106,67);
+    background: linear-gradient(233deg, rgba(204,106,67,1) 0%, rgba(255,209,173,1) 40%, rgba(110,201,255,1) 100%);
+    border-radius: 50%;
+    animation: loader-spiral 1s linear;
+    animation-iteration-count: infinite;
+}
+.loader .img-container{
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 250;
+    text-align: center;
+    background: #000;
+    box-shadow: #000 0px 0px 2px 2px    ;
+    display: flex;
+}
+.loader .img-container img{
+    height: 100px;
+    width: 164px;
+    margin: auto;
+    position: relative;
+    text-align:center;
+    background-color: transparent;
+}
+.hide-loader{
+    z-index: -10;
+    display: none;
+}
 
 
 
