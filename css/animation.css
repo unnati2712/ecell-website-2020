@@ -57,3 +57,17 @@
         box-shadow: var(--secondary-color) 5px 5px;
     }
 }
+@keyframes loader-spiral{
+    0%{
+        width: 180px;
+        height: 180px;
+    }
+    50%{
+        width: 190px;
+        height: 190px;
+    }
+    100%{
+        width: 180px;
+        height: 180px;
+    }
+}
