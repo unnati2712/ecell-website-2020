@@ -269,7 +269,7 @@ section {
 .about-section{
     position: relative;
     background: #FFD1AD;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-top: 20px;
 }
 .about-section .row{
@@ -288,6 +288,25 @@ section {
 .row-half .col-md-6:last-child{
     padding-left: 30px;
     padding-right: 0;
+}
+.number-counter{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.number-counter div{
+    padding-top: 10px;
+}
+.number-counter .counter{
+    font-size: 2.5rem;
+    color: #1f2346;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.number-counter .counter-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1f2346;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------

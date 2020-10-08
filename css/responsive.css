@@ -146,8 +146,8 @@
 	.about-section .row{
         padding: 0px 30px 10px 30px;
         font-size: 1.2rem;
-        padding-left: 0;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .row-half .col-md-6:last-child{
         padding: 0;
