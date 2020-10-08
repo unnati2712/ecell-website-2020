@@ -161,7 +161,7 @@
     </section>
 
 
-    <section class="footer">
+    <section class="footer" id="vantaFooter">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 map">
@@ -181,11 +181,11 @@
                         <h4 class="section-subhead">Explore</h4>
                         <div class="row">
                             <div class="col">
-                                <h5><a href="/#about">About Us</a></h5>
+                                <h5><a href="#about">About Us</a></h5>
                                 <h5><a href="team.html">Team</a></h5>
                             </div>
                             <div class="col">
-                                <h5><a href="/#initiatives">Initiatives</a></h5>
+                                <h5><a href="#initiatives">Initiatives</a></h5>
                                 <h5><a href="gallery.html">Gallery</a></h5>
                             </div>
                         </div>
@@ -230,5 +230,25 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js" integrity="sha512-E1+SnTWyHYoY5MN8wpL0SI4TYbpWN12sHXyEViwbzzEyq6GHxQrPFDzEeUDab4emXcf3Yj41Tht2JZnpo3kjwA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.19/vanta.waves.min.js" integrity="sha512-5Z6MX+bg1cXjpzp525buoUftDnthsPwhH9FGkacNVdkNR/sZvxDMo2kd/RRrCARwuupd0qGnNjPRjWLGYw7AOw==" crossorigin="anonymous"></script>
+    <script>
+        VANTA.WAVES({
+            el: "#vantaFooter",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x90909,
+            shininess: 37.00,
+            waveSpeed: 1.05,
+            zoom: 1.07
+          })
+    </script>
 </body>
 </html>
