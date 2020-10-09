@@ -227,9 +227,6 @@ body{
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
 
 .section-bg {
   background-color: #fafafa;
@@ -309,9 +306,49 @@ section {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*-----------------------initiative-outer-section--------------*/
+.ini-section{
+    padding-bottom: 50px;
+}
+.ini-section .row > div{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.ini-section .each-option{
+    cursor: pointer;
+    box-shadow: 0 10px 29px 0 rgb(31 35 70 / 19%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ini-section .each-option div:first-child{
+    padding-right: 5px;
+    padding-left: 25px;
+}
+.ini-section .each-option div:last-child{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ini-section .each-option .ini-content-head{
+    font-size: 1.2rem;
+    margin-top: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: center;   
+    text-align: center;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.ini-section .each-option:hover .ini-content-head{
+    transform: translate(0px, -10px);
+    color: var(--secondary-color);
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+/* .services{
+    margin-top: 20px;
+}
 .services .icon-box {
   position: relative;
   overflow: hidden;
@@ -329,6 +366,8 @@ section {
 .services .icon {
   position: relative;
   left: -20px;
+  width: 30%;
+  margin-right: 10px;
   top: calc(50% - 30px);
 }
 
@@ -343,14 +382,10 @@ section {
   margin-bottom: 20px;
   margin: 10px 10px 10px 30px;
   font-weight: 700;
-  font-size: 25px;
-}
-
-.services .title a {
+  font-size: 1.2rem;
   color: #111;
 }
-
-.services .icon-box:hover .title a {
+.services .icon-box:hover .title {
   color: #ff7f5d;
 }
 
@@ -359,21 +394,31 @@ section {
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-}
+} */
 
 /*------------------------------------------------------------
 #  Initiatives
 --------------------------------------------------------------*/
 .initiatives{
-  background-color: #007bff;
+  background-color: transparent;
   background-size: cover;
-  padding: 60px 0;
+  padding: 80px 0;
+  padding-top: 30px;
   position: relative;
-  z-index: 1;
+  z-index: 200;
 }
 .initiatives .section-head{
-    padding-bottom: 10%;
-    padding-top: 0;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+.initiatives .section-head h3{
+    color: #fff;
+}
+.initiatives .section-head .underline{
+    background: #fff;
+}
+.initiatives .row > div{
+    margin-top: 150px;
 }
 .initiatives .main{
   width: 100%;
@@ -387,27 +432,33 @@ section {
   padding: 30px;
   border-radius: 10px;
   position: absolute;
+  width: 100%;
   bottom: 0;
   z-index: 1;
   box-shadow: 0 0 20px -15px #030380;
   transition: transform .8s;
 }
+.initiatives .testi img{
+    width: 100%;
+}
 .initiatives .testi-logo{
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  margin: -90px auto 0;
-  background: #fff;
-  border: 18px solid #007bff;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: #fff;
+    border: 18px solid rgba(0, 0, 0, 0.6);
 }
 .initiatives .testi-logo img{
-  width: 50px;
-  margin-top: 20px;
-  transition: transform 1s;
+    width: 80%;
+    margin-top: 20px;
+    transition: transform 1s;
 }
 .initiatives .testi h4{
   height: 35px;
-  width: 80%;
+  width: 90%;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
   background: #fff;
   margin: 50px auto;
   position: relative;
@@ -478,7 +529,7 @@ section {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	display: none;
 	justify-content: center;
@@ -487,9 +538,10 @@ section {
 }
 
 .modal-contents {
-	
-	width: 100vw;
-	background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+	background-color: transparent;
 	text-align: center;
     position: relative;
     bottom: 0;
@@ -497,10 +549,9 @@ section {
 
 .modal-contents .close {
 	position: absolute;
-	top: 0;
-	right: 10px;
-	font-size: 42px;
-	color: #333;
+	right: 30px;
+	font-size: 3.5rem;
+	color: #fff;
 	transform: rotate(45deg);
 	cursor: pointer;
 }
