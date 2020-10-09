@@ -106,8 +106,10 @@
     </div>
     <div class="header">
         <!-- <img class="background-image" src="img/back.jpg" alt="background-img"> -->
+        
         <div class="another-overlay"></div>
         <div class="overlay"></div>
+        <div id="particles-js"></div>
         <div class="row">
             <div class="header-content col">
                 <h1 class="head">THE<br/>ENTREPRENEURSHIP<br/>CELL</h1>
@@ -152,18 +154,34 @@
                     We are aided by the counsel and backing of TBI-KIET (Technology Business Incubator).
                 </div>
             </div>
+            <div class="row number-counter">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter">50</div>
+                    <div class="counter-title">Startups Initiated</div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter">50</div>
+                    <div class="counter-title">Aluminai Network</div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter">6000</div>
+                    <div class="counter-title">No. of Students</div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter">45</div>
+                    <div class="counter-title">Events Conducted</div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Initiatives</h2>
-          <p>All the initiatives taken by us</p>
+        <div class="section-head">
+            <h3>Initiatives</h3>
+            <div class="underline"></div>
         </div>
-
         <div class="row">
           
           <div class="col-lg-4 col-md-6">
@@ -591,7 +609,7 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials">
-        <div id="testimonials-cover"> 
+        <div id="testimonials-cover" class="container"> 
             <div class="section-head">
                 <h3>Testimonials</h3>
                 <div class="underline"></div>
@@ -722,7 +740,6 @@
 
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -801,9 +818,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js" integrity="sha512-E1+SnTWyHYoY5MN8wpL0SI4TYbpWN12sHXyEViwbzzEyq6GHxQrPFDzEeUDab4emXcf3Yj41Tht2JZnpo3kjwA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.19/vanta.waves.min.js" integrity="sha512-5Z6MX+bg1cXjpzp525buoUftDnthsPwhH9FGkacNVdkNR/sZvxDMo2kd/RRrCARwuupd0qGnNjPRjWLGYw7AOw==" crossorigin="anonymous"></script>
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
     <script>
-        
         $(function(){
             $("#seniors-testimonial").owlCarousel({
                 items:1,
@@ -813,7 +831,6 @@
                 autoPlayHoverPause: true
             });
         });
-
     </script>
     <script>
 
