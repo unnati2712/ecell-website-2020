@@ -17,6 +17,9 @@
     .navslider{
         width: 260px;
     }
+    .section-head h3{
+        font-size: 1.9rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
@@ -109,16 +112,16 @@
         margin-top: 40vh;
     }
 	.header-content .head{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .header-content .subhead{
         font-size: 0.85rem;
     }
     .social-icons div{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .social-icons a span{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -178,35 +181,209 @@
 @media (min-width: 992px) and (max-width: 1200px){
 	
 }
-/*-------------------initiaitves---------------------------*/
+/*-------------------initiaitves-outer---------------------------*/
 @media (max-width: 575px){
-	
+    .ini-section .each-option{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .ini-section .each-option div:first-child{
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 0px;
+        width: 30%;
+    }
+    .ini-section .each-option .ini-content-head{
+        margin-top: 30  px;
+        font-size: 1.2rem;
+        padding-left: 0px;
+    }
+    .ini-section .each-option div:last-child{
+        width: 70%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+	.ini-section .each-option div:first-child{
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    .ini-section .each-option .ini-content-head{
+        margin-top: 60px;
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	
+    .ini-section .each-option{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .ini-section .each-option div:first-child{
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-right: 0;
+    }
+    .ini-section .each-option .ini-content-head{
+        margin-top: 20px;
+        font-size: 1.1rem;
+        padding-left: 0;
+    }
+    .ini-section .each-option div:last-child{
+        padding-left: 0px;
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.ini-section .each-option div:first-child{
+        padding-left: 5px;
+    }
+    .ini-section .each-option .ini-content-head{
+        margin-top: 20px;
+    }
+}
+/*-------------------initiaitves-inner---------------------------*/
+@media (max-width: 575px){
+    .initiatives .section-head h3{
+        font-size: 1.8rem;
+    }
+    .initiatives .row > div{
+        transform: scale(0.8);  
+        margin-top: 70px;
+    }
+    .initiatives .testi h4{
+        font-size: 1.3rem;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
-	
+@media (min-width: 576px) and (max-width: 767px){
+	.initiatives .row > div{
+        transform: scale(0.9);  
+        margin-top: 200px;
+    }
+    .initiatives .testi h4{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+} 
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.initiatives .row > div{
+        margin-top: 100px;  
+    }
 }
 /*-------------------testiminials---------------------------*/
 @media (max-width: 575px){
-	
+	.each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.3rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .testimonials-section .each-testimonial{
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+    .each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.3rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	
+	.each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.1rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -30px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
