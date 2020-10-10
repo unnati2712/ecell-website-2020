@@ -167,6 +167,7 @@ body{
 }
 .header-content .head{
     color: #FFD1AD;
+    /* color: #fff; */
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     font-size: 3rem;
@@ -513,7 +514,7 @@ body{
 .testimonials-section .each-testimonial{
     border: 2px solid var(--secondary-color);
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 40px;
 }
 .testimonials-section .each-testimonial > .row:first-child{
