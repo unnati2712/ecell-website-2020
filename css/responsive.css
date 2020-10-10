@@ -17,6 +17,9 @@
     .navslider{
         width: 260px;
     }
+    .section-head h3{
+        font-size: 1.9rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
@@ -277,16 +280,110 @@
 }
 /*-------------------testiminials---------------------------*/
 @media (max-width: 575px){
-	
+	.each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.3rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .testimonials-section .each-testimonial{
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-	
-
+    .each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.3rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	
+	.each-testimonial > .row > div:last-child p{
+        font-size: 0.9rem;
+    }
+    .each-testimonial > .row > div:last-child h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .left.carousel-control{
+        margin-top: 170px
+    }
+    .right.carousel-control{
+        margin-top: 170px
+    }
+    .each-testimonial > .row > div:first-child{
+        padding-right: 0px;
+    }
+    .testimonials-section .each-testimonial > .row:first-child{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .each-testimonial .social-icons a span{
+        font-size: 1.1rem;
+    }
+    .each-testimonial .social-icons{
+        margin-left: -30px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
