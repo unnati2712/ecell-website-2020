@@ -171,12 +171,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     font-size: 3rem;
-}
+    /* animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 3s; don't forget to set a duration! */
+} 
 .header-content .subhead{
     color: #fff;
     font-size: 0.95rem;
     margin-top: 20px;
     letter-spacing: 1px;
+    /* animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 3s; don't forget to set a duration! */ 
 }
 .social-icons{
     position: absolute;
