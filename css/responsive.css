@@ -318,6 +318,8 @@
     }
     .testimonials-section .each-testimonial{
         margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 
@@ -383,6 +385,10 @@
     }
     .each-testimonial .social-icons{
         margin-left: -30px;
+    }
+    .each-testimonial .person-img{
+        width: 130px;
+        height: 130px;
     }
 }
 
