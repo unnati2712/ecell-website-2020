@@ -166,21 +166,16 @@ body{
     color: #fff;
 }
 .header-content .head{
-    color: #FFD1AD;
-    /* color: #fff; */
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     font-size: 3rem;
-    /* animation: backInDown; /* referring directly to the animation's @keyframe declaration */
-    /* animation-duration: 3s; don't forget to set a duration! */
 } 
 .header-content .subhead{
     color: #fff;
     font-size: 0.95rem;
     margin-top: 20px;
     letter-spacing: 1px;
-    /* animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
-    /* animation-duration: 3s; don't forget to set a duration! */ 
 }
 .social-icons{
     position: absolute;
@@ -270,7 +265,7 @@ body{
 /*---------------------About section------------------*/
 .about-section{
     position: relative;
-    background: #FFD1AD;
+    background: #ebebebbd;
     padding-bottom: 50px;
     padding-top: 20px;
 }
@@ -313,7 +308,7 @@ body{
 
 /*-----------------------initiative-outer-section--------------*/
 .ini-section{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-top: 20px;
 }
 .ini-section .row > div{
@@ -509,22 +504,70 @@ body{
 .modal-contents .close :hover {
     color: #666;
 }
+/*----------------------------initiative desc box--------------*/
+.initiative-desc-box{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    background: #e4e4e4;
+}
+.initiative-desc-box .ini-desc-box{
+    position: relative;
+    height: 100%;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+}
+.ini-desc-box .ini-close{
+    position: absolute;
+    color: #000;
+    transform: rotate(45deg);
+    right: 30px;
+    top: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.ini-desc-box .section-head h3{
+    margin-top: 30px;
+}
+.ini-desc-box .ini-desc{
+    font-size: 1rem;
+    text-align: justify;
+}
+.ini-desc-box img{
+    width: 56%;
+    height: 350px;
+    margin-left: 22%;
+    margin-bottom: 50px;
+}
+.ini-desc-box .carousel-item{
+    margin-top: 30px;
+}
+.ini-desc-box .carousel-control-prev-icon{
+    color: var(--primary-color);
+}
+.ini-desc-box .carousel-control-next-icon{
+    color: var(--primary-color);
+}
+
 /*----------------------------testimonials------------------------*/
 .testimonials-section{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-top: 20px;
-    background: #FFD1AD;
+    background: #ebebebbd;
 }
 .testimonials-section .each-testimonial{
-    border: 2px solid var(--secondary-color);
     margin-left: 40px;
     margin-top: 30px;
     margin-right: 40px;
 }
 .testimonials-section .each-testimonial > .row:first-child{
-    background:#fff;
+    background:#ebebebbd;
     padding: 60px;
-    padding-bottom: 30px;
     margin: 0px;
 }
 .each-testimonial > .row > div:first-child{
@@ -532,19 +575,19 @@ body{
 }
 .each-testimonial .person-img{
     border-radius: 50%;
-    width: 190px;
-    height: 190px;
+    width: 170px;
+    height: 170px;
     margin: auto;
     overflow: hidden;
 }
 .each-testimonial > .row > div:last-child p{
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-left: 20px;
 }
 .each-testimonial > .row > div:last-child h4{
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 800;
 }
 .each-testimonial .social-icons{
@@ -573,75 +616,21 @@ body{
 .left.carousel-control{
     position: absolute;
     top: 0;
-    margin-top: 190px;
+    margin-top: 160px;
 }
 .right.carousel-control{
     right: 0;
     float: right;
-    margin-top: 190px;
+    margin-top: 160px;
     top: 0;
     position: absolute;
 }
 
-/*-------------------------------testimonials style------------------*/
-/* #seniors-testimonial{
-    padding: 40px 0;
-}
-.testimonial img{
-    max-width: 159px;
-    margin: 0 auto 0 auto;
-    border: 2px solid white;
-    padding: 5px;
-    margin-bottom: 13px;
-    border-radius: 100px;
-}
-.testimonial blockquote{
-    border: 0;
-    font-family: tahoma;
-    font-style: italic;
-    color: blue;
-    padding: 5px 150px;
-    position: relative;
-}
-.testimonial blockquote:before,
-.testimonial blockquote:after{
-    font-size: 80px;
-    font-style: normal;
-    line-height: 1;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-}
-.testimonial blockquote::before{
-    content: "\201C";
-    top: 0;
-    left: 100px;
-}
-.testimonial blockquote::after{
-    content: "\201D";
-    bottom: 0;
-    right: 100px;
-}
-.testimonial-author p{
-    color: blue;
-    font-size: 17px;
-}
-.testimonial-author p strong{
-    display: block;
-}
-.testimonial h3{
-    color: blue;
-    text-transform: uppercase;
-} */
 /*--------------------gallery--------------------------------*/
 .gallery{
     background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
-    background: url("../img/download.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
 }
 .gallery .section-head{
     margin-bottom: auto;
@@ -649,10 +638,9 @@ body{
     margin-bottom: 20px;
 }
 .gallery .image{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    box-shadow: var(--secondary-color) 5px 5px;
 }
 .gallery .image:hover{
     animation: gallery-imganim 0.3s linear;
@@ -667,22 +655,6 @@ body{
     background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
-    background: url("../img/download.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-}
-.team-details:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 160%;
-	width: 100%;
-	height: 100%;
-	background: rgba(225,225,225,.2);
-	z-index: 1;
-	transform: skewX(45deg);
-	transition: 0.6s;
 }
 .team-section .section-head{
     margin-bottom: auto;
@@ -696,100 +668,51 @@ body{
     margin-left: 30%;
 }
 .members{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 20px; 
     margin-right: 20px;
-    box-shadow: #CC6A43 5px 5px;
+    box-shadow: 0 10px 29px 0 rgb(31 35 70 / 25%);
 }
-.team-details:hover:before{
-	
-	left:-160%;
-	transition-delay: 0.7s;
-}
-
 .members .team-details {
-	overflow: hidden;
 	position: relative;
 	width: 200px;
-	height: 185px;
+	height: 235px;
 	background: #fff;	
 }
 .team-img {
 	width: 100%;
-	height:100%;
-	filter: grayscale(100%);
-	transition: 2s;	
-}
-.team-details:hover .team-img {
-	filter: grayscale(0%);
-	transform: scale(1.1);
-	
+	height: 80%;
 }
 .team-details .team-name{
-	position:absolute;
-	padding: 2px 0px;
-	margin:0px;
-	width:100%;
-	font-size: 1rem;
-	bottom: -15px;
+	position: relative;
+    width:100%;
+    color: #000;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-bottom: 10px;
 	background-color: #fff;
-	text-align: center;
-	transform-origin: bottom;
-	transform: perspective(1000px) rotateX(90deg);
-	transition: 0.5s;
-	
+	text-align: center;	
 }
-.team-details:hover .team-name{
-	transform: perspective(1000px) rotateX(0deg);
+.team-details a:hover{
+    text-decoration: none;
 }
 .team-details .text-muteded {
 	font-size: 0.9rem;
-	color:#cc6a43;	
-}
-.team-details .team-list-inline {
-	margin: 0;
-	padding:0;
-	top: 38%;
-	left: 0;
-	position: absolute;
-	
-}
-.team-details .team-list-inline li{
-	list-style-type: none;
-	background-color: #fff;
-	width: 30px;
-    height: auto;
-    text-align: center;
-    margin-top: 1px;
-	transform-origin: left;
-	transform: perspective(1000px) rotateY(90deg);
-	transition: 0.5s;
-}
-.team-details:hover .team-list-inline li:nth-child(1){
-	transform: perspective(1000px) rotateY(0deg);
-	transition-delay: 0.5s;
-}
-.team-details:hover .team-list-inline li:nth-child(2){
-	transform: perspective(1000px) rotateY(0deg);
-	transition-delay: 0.5s;
-}
-.team-details .team-list-inline li .fa{
-	color:black;
-	z-index: 2;
+    color:#cc6a43;	
+    margin-bottom: 0px;
 }
 .president .team-details{
     width: 250px;
-    height: 230px;
+    height: 280px;
 }
 .vice-president .team-details{
     width: 230px;
-    height: 210px;
+    height: 260px;
 }
 .domain-heads .team-details{
     width: 210px;
-    height: 190px;
+    height: 235px;
 }
-
 /*---------------------reach-us------------------------*/
 .reach-us{
     position: fixed;
@@ -869,6 +792,7 @@ body{
     border-radius: 0px;
     background: var(--secondary-color);
     border: none;
+    border-radius: 5px;
 }
 .content form .form-field button:hover{
     background: #b54d23;
@@ -986,6 +910,9 @@ body{
     text-align: center;
     color: #fff;
 }
+.vanta-canvas{
+    width: 100% !important;
+}
 /*----------------------loader--------------------------------*/
 .loader > div{
     background: #000;
@@ -1040,101 +967,3 @@ body{
     z-index: -10;
     display: none;
 }
-
-
-
-
-/* hashdhd */
-
-.testimonial{
-    margin:0px 50px 30px 20px;
-    background-color: #fff;
-    color: #010446;
-    text-align: center;
-    border-left: 10px solid #57BA55;
-    border-right: 10px solid #57BA55;
-    padding: 40px 30px 40px;
-    position: relative;
-}
-.testimonial:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 10px;
-    background-color: #57BA55;
-}
-.testimonial:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 10px;
-    background-color:#57BA55;
-}
-.testimonial .testimonial-content{
-    margin-bottom: 30px;
-    font-size: 15px;
-    line-height: 30px;
-}
-
-.testimonial .pic{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    margin-right: 15px;
-    border:1px solid #FF6F59;
-}
-
-.testimonial .pic img{
-    width: 100%;
-    height: 100%;
-}
-
-.testimonial .testimonial-title{
-    display: inline-block;
-}
-
-.testimonial .testimonial-title a{
-    display: block;
-    color:#FF6F59;
-    font-size: 22px;
-    text-transform: Uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.testimonial .testimonial-title small{
-    font-size: 15px;
-    font-style: italic;
-    color:#292F36;
-}
-
-.owl-theme .owl-controls{
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.owl-theme .owl-controls .owl-page span{
-    height:15px !important;
-    width: 15px !important;
-    background-color:#57BA55 !important;
-    opacity: 0.8 ;
-    border-radius: 0 !important;
-    transform:rotate(45deg) !important;
-}
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span{
-    background-color: #FF6F59 !important;
-}
-.testmob {
-   margin-left: 30%;
-}
-@media  (max-width: 400px) {
-    testmob {
-      margin-left: 0;
-      margin-right: 30%;
-    }
-
-  }

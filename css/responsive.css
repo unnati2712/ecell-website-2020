@@ -258,6 +258,25 @@
     .initiatives .testi h4{
         font-size: 1.3rem;
     }
+    .ini-desc-box .section-head{
+        padding-top: 20px;
+    }
+    .ini-desc-box .section-head h3{
+        font-size: 2rem;
+    }
+    .ini-desc-box img{
+        height: 130px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .ini-desc-box .carousel-item{
+        margin-top: 0px;
+    }
+    .ini-desc-box .ini-desc{
+        font-size: 0.9rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
@@ -268,14 +287,26 @@
     .initiatives .testi h4{
         font-size: 1.5rem;
     }
+    .ini-desc-box .section-head h3{
+        font-size: 2.5rem;
+    }
+    .ini-desc-box img{
+        height: 200px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+    .ini-desc-box img{
+        height: 250px;
+    }
 } 
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.initiatives .row > div{
         margin-top: 100px;  
+    }
+    .ini-desc-box img{
+        height: 300px;
     }
 }
 /*-------------------testiminials---------------------------*/
@@ -342,9 +373,7 @@
         margin-right: 40px;
     }
     .testimonials-section .each-testimonial > .row:first-child{
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 40px;
+        padding: 40px;
     }
     .each-testimonial .social-icons a span{
         font-size: 1.3rem;
@@ -374,9 +403,8 @@
         padding-right: 0px;
     }
     .testimonials-section .each-testimonial > .row:first-child{
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 40px;
+       padding: 40px;
+
     }
     .each-testimonial .social-icons a span{
         font-size: 1.1rem;
