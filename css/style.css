@@ -227,7 +227,7 @@ body{
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-
+/* 
 .section-bg {
   background-color: #fafafa;
 }
@@ -260,7 +260,7 @@ body{
   margin-bottom: 0;
   color: #919191;
   font-size: 14px;
-}
+} */
 
 /*---------------------About section------------------*/
 .about-section{
@@ -556,7 +556,7 @@ body{
 
 /*----------------------------testimonials------------------------*/
 .testimonials{
-    background-image:url(../img/video-bg-1.jpg);
+    background-image:url("../img/video-bg-1.jpg");
 }
 /*.testimonials .section-head{
     padding-bottom: 0px;
