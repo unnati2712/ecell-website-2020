@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 :root{
-    --primary-color: #000d80;  
-    --secondary-color: #CC6A43;
+    --primary-color: #76b900;  
+    --secondary-color: #0f031c;
 }
 html{
     scroll-behavior: smooth;
@@ -12,7 +12,8 @@ html{
 }
 body{
     font-size: 16px;
-    font-family: 'Lora', serif;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
     position: relative;
     overflow-x: hidden;
     background: #fff;
@@ -36,9 +37,8 @@ body{
     z-index: 100;
     cursor: pointer;
     color: #fff;
-    background-color: #1f2346;
+    background-color: var(--secondary-color);
     padding: 10px 5px 10px 5px;
-    box-shadow: #1f2346 5px 5px;
 }
 .navbar .bars svg{
     color: #fff;
@@ -120,7 +120,7 @@ body{
     min-height: 786px;
     overflow: hidden;
     z-index: 5;
-    background-image: url("../img/back\ -\ Copy.jpg");
+    background-image: url("../img/newBack.jpg");
     background-size: cover;
     left: 0;
     position: relative;
@@ -144,8 +144,7 @@ body{
     height: 100%;
     top: 0;
     position: absolute;
-    background-color: #000;
-    opacity: .5;
+    background: linear-gradient(299deg, rgba(18,4,33,0.8743872549019608) 0%, rgba(0,0,0,1) 73%);
 }
 #particles-js{
     width: 100%;
@@ -162,20 +161,21 @@ body{
     top: 0;
     position: absolute;
     margin-top: 20%; 
-    margin-left: 20%;
     color: #fff;
 }
 .header-content .head{
-    color: #fff;
+    color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
-    font-size: 3rem;
+    font-size: 4.17rem;
+    text-align: center;
 } 
 .header-content .subhead{
     color: #fff;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     margin-top: 20px;
-    letter-spacing: 1px;
+    text-align: center;
+    letter-spacing: 3px;
 }
 .social-icons{
     position: absolute;
@@ -198,13 +198,14 @@ body{
     width: 100%;
     padding-top: 50px;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 .section-head h3{
     width: auto;
     align-self: center;
     text-align: center;
     font-weight: 800;
-    color: #1f2348;
+    color: var(--primary-color);
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -212,12 +213,12 @@ body{
     width: 60%;
     height: 1px;
     margin-top: 20px;
-    background: #cc6a43;
+    background: transparent;
     margin-left: 20%;   
     
 }
 .section-subhead{
-    color: #fff;
+    color: var(--primary-color);
     font-weight: 900;
     font-size: 1.6rem;
     font-variant: all-petite-caps;
@@ -265,7 +266,9 @@ body{
 /*---------------------About section------------------*/
 .about-section{
     position: relative;
-    background: #ebebebbd;
+    /* background: #090212; */
+    /* background: linear-gradient(180deg, rgb(14 8 20)0%, rgba(18,4,33,1) 50%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(180deg, rgb(14 8 20)0%, rgba(18,4,33,1) 50%, #18151b 102%);
     padding-bottom: 50px;
     padding-top: 20px;
 }
@@ -284,6 +287,8 @@ body{
 }
 .row-half .col-md-6:last-child{
     padding-left: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
     padding-right: 0;
 }
 .number-counter{
@@ -310,6 +315,7 @@ body{
 .ini-section{
     padding-bottom: 70px;
     padding-top: 20px;
+    background: #18151b;
 }
 .ini-section .row > div{
     margin-top: 15px;
@@ -317,8 +323,9 @@ body{
 }
 .ini-section .each-option{
     cursor: pointer;
-    box-shadow: 0 10px 29px 0 rgb(31 35 70 / 19%);
+    box-shadow: 0 10px 10px 0 #120520;
     margin-left: 10px;
+    background: #000;
     margin-right: 10px;
 }
 .ini-section .each-option div:first-child{
@@ -472,7 +479,7 @@ body{
     width: 70px;
 }
 .bg-modal {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.9);
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -653,7 +660,7 @@ body{
 
 /*--------------------gallery--------------------------------*/
 .gallery{
-    background: #fff;
+    background: linear-gradient(0deg, rgba(0,0,0,0.99) 0%, rgba(18,4,33,1) 50%, rgba(0,0,0,0.99) 100%);
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -677,7 +684,7 @@ body{
 
 /*----------------team section------------------------*/
 .team-section{
-    background: #fff;
+    background: linear-gradient(0deg, rgba(0,0,0,0.99) 0%, rgba(18,4,33,1) 50%, rgba(0,0,0,0.99) 100%);
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -723,7 +730,7 @@ body{
 }
 .team-details .text-muteded {
 	font-size: 0.9rem;
-    color:#cc6a43;	
+    color: var(--secondary-color);	
     margin-bottom: 0px;
 }
 .president .team-details{
@@ -747,12 +754,12 @@ body{
 }
 .reach-us-button{
     border-radius: 5px;
-    background: #cc6a43;
+    background: #76b900;
     padding: 10px 20px;
     text-align: center;
     vertical-align: center;
     cursor: pointer;
-    box-shadow: #000 1px 1px 2px 2px;
+    box-shadow: #201729 1px 1px 2px 2px;
 }
 .reach-us-button h4{
     padding: 0px;
@@ -775,8 +782,7 @@ body{
     width: 400px;
     right: -5px;
     overflow: hidden;
-    border: 2px solid #000;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #fff;
 }
 .content .close{
@@ -791,11 +797,11 @@ body{
     height: 15%;
     width: 100%;
     background-color: var(--secondary-color);
-    border-bottom: 2px solid #000;
 }
 .content .head .section-subhead{
     padding-left: 30px;
     padding-top: 20px;
+    color: #fff;
 }
 .content form{
     margin-top: 20px;
@@ -820,7 +826,7 @@ body{
     border-radius: 5px;
 }
 .content form .form-field button:hover{
-    background: #b54d23;
+    background: var(--primary-color);
 }
 .content .email{
     text-align: center;
@@ -829,6 +835,7 @@ body{
 .content .email h4{
     font-size: 1.1rem;
     letter-spacing: 2px;
+    color: #000;
     font-weight: 600;
 }
 .content .email h4 span{
@@ -844,7 +851,7 @@ body{
 
 /*-----------------------footer------------------------*/
 .footer{
-    /* background: #111; */
+    background: #000;
     padding-top: 80px;
     padding-bottom: 40px;
 }
@@ -899,7 +906,7 @@ body{
     font-size: 1rem;
 }
 .footer .explore > div.row a{
-    color: var(--secondary-color);
+    color: #fff;
 }
 .footer .explore .social-icons{
     position: relative;
@@ -919,7 +926,7 @@ body{
 }
 .explore .email h4 span{
     font-weight: 900;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .footer .explore .social-icons div{
     margin-right: 60px;
@@ -928,7 +935,7 @@ body{
 .copyright{
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #0a0a0a;
+    background: #000;
 }
 .copyright h4{
     font-size: 1rem;
@@ -991,4 +998,9 @@ body{
 .hide-loader{
     z-index: -10;
     display: none;
+}
+
+/*------------------------testimonials-------------------------------*/
+.testimonials-section{
+    background: linear-gradient(0deg, rgb(0,0,0,0.99)0%, rgba(18,4,33,1) 50%, #18151b 102%);
 }
