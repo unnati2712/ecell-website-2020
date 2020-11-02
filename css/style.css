@@ -563,14 +563,17 @@ body{
 
 /*----------------------------testimonials------------------------*/
 .testimonials{
-    background-image:url("../img/video-bg-1.jpg");
+    background-image: url('../img/testibg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 /*.testimonials .section-head{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }*/
 .testimonial{
-    background: #fff;
+    background: black;
     text-align: center;
     padding: 30px 30px 50px;
     margin: 0 15px 100px;
@@ -580,7 +583,7 @@ body{
 .testimonial:before,
 .testimonial:after{
     content: "";
-    border-top: 40px solid #fff;
+    border-top: 40px solid black;
     border-right: 125px solid transparent;
     position: absolute;
     bottom: -40px;
@@ -595,13 +598,13 @@ body{
 .testimonial .icon{
     display: inline-block;
     font-size: 80px;
-    color: #bd986b;
+    color: #fff;
     margin-bottom: 20px;
     opacity: 0.6;
 }
 .testimonial .description{
     font-size: 16px;
-    color: #777;
+    color: #fff;
     text-align: justify;
     margin-bottom: 30px;
     opacity: 0.9;
