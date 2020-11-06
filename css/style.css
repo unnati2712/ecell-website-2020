@@ -227,45 +227,6 @@ body{
     font-variant: all-petite-caps;
     font-family: 'Montserrat', sans-serif;
 }
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-/* 
-.section-bg {
-  background-color: #fafafa;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #ff7f5d;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.section-title p {
-  margin-bottom: 0;
-  color: #919191;
-  font-size: 14px;
-} */
-
 /*---------------------About section------------------*/
 .about-section{
     position: relative;
@@ -563,10 +524,6 @@ body{
     background: linear-gradient(0deg, rgb(0,0,0,0.99)0%, rgba(18,4,33,1) 50%, #18151b 102%);
     margin-top: -1px;
 }
-/*.testimonials .section-head{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}*/
 .testimonial{
     background: black;
     text-align: center;

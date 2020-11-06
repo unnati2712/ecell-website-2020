@@ -113,7 +113,7 @@ let initiatives = [
   {
     id: "endeavour_20",
     head: "Endeavour'20",
-    img: ["1.jpg", "2.jpg", "endeavour_17/3.jpg", "endeavour_17/4.jpg"],
+    img: ["endeavour_17/1.jpg", "endeavour_17/2.jpg", "endeavour_17/3.jpg", "endeavour_17/4.jpg"],
     content: "Endeavour'18 was the second Inter- Techno-EntreprCollegeeneurial E-Summit of our college. Being initiated in 2015, the legacy was carried forward, with the intense efforts of KIET e-Cell. It was held for two days, 7th & 8th March, 2017, venue being the college campus itself. It comprised of numerous competitions, guest lectures from eminent entrepreneurs, technical and corporate events and host of other activities to enthral its participants. Being organized at inter-collegiate level, the E-summit brought forth before its audience- a battle of ideas, an explosion of creativity, an expanse of knowledge and above all, a platform for all to develop a sense of entrepreneurship.Endeavour'17 witnessed overwhelming response from not only KIET, but also numerous colleges such as IIT Delhi, Delhi University, Ajay Kumar Garg Engineering College, JSS-Noida, JIIT Noida, IPEC, Jamia Milia Islamia, Bhartiya Vidyapeeth, Shobhit University and MIET.<br/> Endeavour'17 had been graced by several noteworthy guest talks. Some of them being by:<br/> Mr. Harkesh Kr Mittal (Adviser, Member Secretary, NSTED)B<br/> Mrs. Kanchan Agarwal (Co-Founder and CEO, Compare Munafa)<br/> Mr. Ramesh Dharmaji( CGM, Small Industries Development Bank of India)<br/> In the events, the students got to realise what it takes to be an entrepreneur. The winners took home prizes worth INR 3,00,000.<br/>"
   },
   {
