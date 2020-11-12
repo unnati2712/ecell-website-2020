@@ -86,7 +86,6 @@
         min-height: auto;   
     }
     .header-content{
-        margin-left: 9.5%;
         margin-top: 40vh;
     }
 	.header-content .head{
@@ -108,7 +107,6 @@
         min-height: auto;   
     }
     .header-content{
-        margin-left: 12%;
         margin-top: 40vh;
     }
 	.header-content .head{
@@ -123,6 +121,9 @@
     .social-icons a span{
         font-size: 1.3rem;
     }
+    .col-md-6.aos-init.aos-animate{
+        font-size: 0.89rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -130,7 +131,6 @@
         min-height: auto;   
     }
     .header-content{
-        margin-left: 16%;
         margin-top: 40vh;
     }
 	.header-content .head{
@@ -139,6 +139,9 @@
     .header-content .subhead{
         font-size: 1.2rem;
         letter-spacing: 2px;
+    }
+    .col-md-6.aos-init.aos-animate{
+        font-size: 1rem;
     }
 }
 /*-------------------about section---------------------------*/
@@ -230,7 +233,7 @@
     }
     .ini-section .each-option .ini-content-head{
         margin-top: 20px;
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding-left: 0;
     }
     .ini-section .each-option div:last-child{
@@ -311,110 +314,45 @@
 }
 /*-------------------testiminials---------------------------*/
 @media (max-width: 575px){
-	.each-testimonial > .row > div:last-child p{
-        font-size: 0.9rem;
-        margin-left: 0;
+    .testimonial{
+        padding: 20px 30px;
     }
-    .each-testimonial > .row > div:last-child h4{
-        font-size: 1rem;
-        margin-bottom: 20px;
+    .testimonial .icon{
+        font-size: 40px;
     }
-    .left.carousel-control{
-        margin-top: 170px
+    .pic img{
+        width: 100px !important;
     }
-    .right.carousel-control{
-        margin-top: 170px
+    .testimonial{
+        margin-bottom: 140px;
     }
-    .each-testimonial > .row > div:first-child{
-        margin-left: 25px;
+    .testimonial .description{
+        font-size: 0.85rem;
     }
-    .testimonials-section .each-testimonial > .row:first-child{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-    .testimonials-section .each-testimonial > .row:first-child{
-        padding-left: 0px;
-        padding-bottom: 10px;
-    }
-    .each-testimonial .social-icons a span{
-        font-size: 1.3rem;
-    }
-    .each-testimonial .social-icons{
-        margin-left: -40px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    .testimonials-section .each-testimonial{
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
+    .testimonial .title{
+        font-size: 1rem ;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-    .each-testimonial > .row > div:last-child p{
-        font-size: 0.9rem;
-        margin-left: 0;
+    .testimonial{
+        padding: 40px 50px;
+        margin-bottom: 130px;
     }
-    .each-testimonial > .row > div:last-child h4{
-        font-size: 1rem;
-        margin-bottom: 20px;
+    .testimonial .icon{
+        font-size: 50px;
     }
-    .left.carousel-control{
-        margin-top: 170px
-    }
-    .right.carousel-control{
-        margin-top: 170px
-    }
-    .each-testimonial > .row > div:first-child{
-        padding-right: 0px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .testimonials-section .each-testimonial > .row:first-child{
-        padding: 40px;
-    }
-    .each-testimonial .social-icons a span{
-        font-size: 1.3rem;
-    }
-    .each-testimonial .social-icons{
-        margin-left: -40px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+    .pic img{
+        width: 110px !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	.each-testimonial > .row > div:last-child p{
-        font-size: 0.9rem;
+    .testimonial{
+        padding: 50px 60px;
     }
-    .each-testimonial > .row > div:last-child h4{
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
-    .left.carousel-control{
-        margin-top: 170px
-    }
-    .right.carousel-control{
-        margin-top: 170px
-    }
-    .each-testimonial > .row > div:first-child{
-        padding-right: 0px;
-    }
-    .testimonials-section .each-testimonial > .row:first-child{
-       padding: 40px;
-
-    }
-    .each-testimonial .social-icons a span{
-        font-size: 1.1rem;
-    }
-    .each-testimonial .social-icons{
-        margin-left: -30px;
-    }
-    .each-testimonial .person-img{
-        width: 130px;
-        height: 130px;
+    .testimonial .icon{
+        font-size: 50px;
     }
 }
 
