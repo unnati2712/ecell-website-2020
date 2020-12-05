@@ -1,6 +1,6 @@
 // jshint esversion: 6
 window.addEventListener("load", function(){
-  document.querySelector(".loader").classList.add("hide-loader");
+  window.setTimeout(() => document.querySelector(".loader").classList.add("hide-loader"),1000);
 });
 document.querySelector("#close-nav").addEventListener("click", function(){
   let target = document.querySelector(".navslider");
