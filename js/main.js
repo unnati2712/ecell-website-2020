@@ -1,6 +1,6 @@
 // jshint esversion: 6
 window.addEventListener("load", function(){
-  document.querySelector(".loader").classList.add("hide-loader");
+  window.setTimeout(() => document.querySelector(".loader").classList.add("hide-loader"),1000);
 });
 document.querySelector("#close-nav").addEventListener("click", function(){
   let target = document.querySelector(".navslider");
@@ -113,14 +113,14 @@ let initiatives = [
   {
     id: "endeavour_20",
     head: "Endeavour'20",
-    img: ["endeavour_17/1.jpg", "endeavour_17/2.jpg", "endeavour_17/3.jpg", "endeavour_17/4.jpg"],
+    img: ["endeavour'20/1.jpeg", "endeavour'20/2.jpeg", "endeavour'20/3.jpeg" ,"endeavour'20/4.jpg"],
     content: "Endeavour'20 was the sixth successfully organised entrepreneurship summit of our college. Ever since its initiation in 2015, Endeavour has always been a unique platform for academicians, new-age entrepreneurs, eminent business personalities, venture capitalists and the students to gather at one place and share their entrepreneurial endeavours and experiences, and to pledge to take entrepreneurship to greater scales.<br>Endeavour'20 witnessed a heartwarming response not only from Ghaziabad but from colleges all around the country, in which more than 500 teams took part in various competitive events.<br> E-Summit'20 was not just a conclave of innovative minds and a degree of validation, but it turned to be a place where ideas become the greatest revelations.<br>"
   },
   {
     id: "endeavour_19",
     head: "Endeavour'19",
     img: ["endeavour'19/1.jpg", "endeavour'19/2.jpg", "endeavour'19/3.jpg" ,"endeavour'19/4.jpg"],
-    content: "Endeavour'19</strong></big> was the fifth inter-college Techno-Entrepreneurial Summit of our college. Initiated in 2015, our rich legacy was carried forward, with the intense efforts of KIET e-Cell. It was organised over the course of two days, 23rd & 24th Feb, 2019, venue being the college campus itself. It comprised of numerous competitions, guest lectures from eminent entrepreneurs, technical and corporate events and host of other activities to enrich its participants.Organized at inter-college level, the E-summit brought forth before its audience, a battle of ideas, an explosion of creativity, an expanse of knowledge and above all, a platform for all to develop a sense of entrepreneurship. Endeavour'18 witnessed overwhelming response from not only KIET, but also numerous colleges such as IIT Delhi, Delhi University, Ajay Kumar Garg Engineering College, JSS-Noida, JIIT Noida, IPEC, Jamia Milia Islamia, Bhartiya Vidyapeeth, Shobhit University and MIET.</br>In the events, the students got an opportunity to realise what it takes to be a successful entrepreneur. The winners took home prizes worth <b>INR 4,00,000.</b>"
+    content: "Endeavour'19</strong></big> was the fifth inter-college Techno-Entrepreneurial Summit of our college. Initiated in 2015, our rich legacy was carried forward, with the intense efforts of KIET e-Cell. It was organised over the course of two days, 23rd & 24th Feb, 2019, venue being the college campus itself. It comprised of numerous competitions, guest lectures from eminent entrepreneurs, technical and corporate events and host of other activities to enrich its participants.Organized at inter-college level, the E-summit brought forth before its audience, a battle of ideas, an explosion of creativity, an expanse of knowledge and above all, a platform for all to develop a sense of entrepreneurship. Endeavour'19 witnessed overwhelming response from not only KIET, but also numerous colleges such as IIT Delhi, Delhi University, Ajay Kumar Garg Engineering College, JSS-Noida, JIIT Noida, IPEC, Jamia Milia Islamia, Bhartiya Vidyapeeth, Shobhit University and MIET.</br>In the events, the students got an opportunity to realise what it takes to be a successful entrepreneur. The winners took home prizes worth <b>INR 4,00,000.</b>"
   },
   {
     id: "endeavour_18",
@@ -137,13 +137,13 @@ let initiatives = [
   {
     id: "endeavour_16",
     head: "Endeavour'16",
-    img: ["endeavour_16/1.jpg", "endeavour_16/2.jpg", "endeavour_16/3.jpg", "endeavour_16/4.jpg", "endeavour_16/5.jpg","endeavour_16/6.jpg"],
+    img: ["endeavour'16/1.jpg", "endeavour'16/2.jpg", "endeavour'16/3.jpg", "endeavour'16/4.jpg", "endeavour'16/5.jpg","endeavour'16/6.jpg"],
     content: "<big><strong>Endeavour'16</big></strong> was the second Inter-College Techno-Entrepreneurial E-Summit of our college. Being initiated in 2015, the legacy was carried forward, with the intense efforts of KIET e-Cell. It was held for two days, 26th & 27th February, 2016, venue being the college campus itself. It comprised of numerous competitions, guest lectures from eminent entrepreneurs, technical and corporate events and host of other activities to enthral its participants. Being organized at inter-collegiate level, the E-summit brought forth before its audience- a battle of ideas, an explosion of creativity, an expanse of knowledge and above all, a platform for all to develop a sense of entrepreneurship.Endeavour'16 witnessed overwhelming response from not only KIET, but also numerous colleges such as IIT Delhi, Delhi University, Ajay Kumar Garg Engineering College, JSS-Noida, JIIT Noida, IPEC, Jamia Milia Islamia, Bhartiya Vidyapeeth, Shobhit University and MIET.</br> Endeavour'16 had been graced by several noteworthy guest talks. Some of them being by: <br/> <b>Mr. R.K. Panigrahi</b> (Director MSME-DI)</br> <b>Mr. Vatsal Asthana</b> (Founder and CEO, Costura.com)</br> <b>Mr. Arpit Gupta</b> (CEO, T.R.E.E.S. Pvt. Ltd.) (Founder and CEO, Pixooz, LED Cubes) </br> In the events, the students got to realise what it takes to be an entrepreneur. The winners took home prizes worth <b>INR 5,00,000</b>."
   },
   {
     id: "endeavour_15",
     head: "Endeavour'15",
-    img: ["endeavour_15/1.jpg", "endeavour_15/2.jpg", "endeavour_15/3.jpg",, "endeavour_15/4.jpg"],
+    img: ["endeavour'15/1.jpg", "endeavour'15/2.jpg", "endeavour'15/3.jpg", "endeavour'15/4.jpg"],
     content: "The founding team of the <big><strong>e-Cell</strong></big> has represented our college at IIT Guwahati's Techniche 2014. With all the exposure that they got, they had learned a great deal from their experiences.With a resolve to bring the entrepreneurship culture to our college & others, the idea of organizing an inter-college E-Summit, took its roots. After months of hard work, the first season of the E-Summit - Endeavour was hosted on 13 & 14 March, 2015. It witnessed a considerable participation of approximate 5000 people, from not only KIET, but several colleges of Delhi-NCR as well. Endeavour'15 had events in two major modules - Technical and Entrepreneurial. Endeavour'15 saw a glorious list of speakers including: </br> <b>Mr. Sarvesh Agrawal</b> (CEO and Founder, Internshala)</br> <b>Mr. Deepak Goel, Founder</b> (iMET Global)</br> <b>Mr. Anuj Saxena</b> (Founder Director, Bcube IT Services Pvt. Ltd.)</br> <b>Mr. Jaitendra Kumar</b> (Senior Secretary, PHD Chamber of Commerce & Industries)</br> <b>Mr. Raj Nidhi Sharma</b> (CEO, KM Group) <br/> It also hosted a Start Up Expo, showcasing several start-ups and budding ventures."
   },
   {
