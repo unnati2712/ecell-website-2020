@@ -56,6 +56,7 @@
 
 .contentBox .content h3
 {
+    padding-top: 40px;
     color: #333;
     line-height: 1em;
     font-weight: 300;
@@ -103,6 +104,43 @@ border-radius: 10px;
 
 /*responsive*/
 
-@media screen {
-    
+@media (max-width:640px) 
+
+{
+.contentBox
+{
+    width: 300px;
+    height:640px;
+    flex-direction: column;
+}
+
+.contentBox .imgBx {
+    height: 300px;
+    transform: translateY(-50px);
+
+}
+
+.contentBox .imgBx::before {
+background: #fff;
+}
+
+.contentBox .imgBx img{
+    height: 400px;
+    padding-top: 110px;
+}
+.contentBox .content{
+    height: auto;
+    text-align: center;
+
+    padding-top:0;
+}
+
+#close{
+    top: -100px;
+    right: -10px;
+    background: #fff url(./close.jpeg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+}
 }
