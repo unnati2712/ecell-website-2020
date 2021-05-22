@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="img/logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/popup.css">
 </head>
 <body>
     <div class="loader">
         <div class="container-fluid">
             <div class="loader-outer">
                 <div class="gradient">
-                    
+
                 </div>
                 <div class="img-container">
                     <img src="img/logos/logo-ecell.png" alt="">
@@ -114,9 +115,30 @@
         <div class="d-none d-sm-none d-md-block" id="particles-js"></div>
         <div class="row">
             <div class="header-content col">
+                
                 <h1 class="head ">THE<br/>ENTREPRENEURSHIP<br/>CELL</h1>
                 <h2 class="subhead">KIET GROUP OF INSTITUTIONS</h3>
             </div>
+
+            <div class="popup">
+                <div class="contentBox">
+                
+                    <div id="abcde" class="close"></div>
+                    <div class="imgBx">
+                        <img src="./img/logos/init/endeavourlogo.jpeg">
+                        </div>
+                        <div class="content">
+                            <div>
+                            <h3>ENDEAVOUR 2021</h3>
+                            <h2>12th & 13th june</h2>
+                            <p> TO PARTICIPATE AND TO KNOW MORE ABOUT IT</p>
+                            <a href="http://endeavour-kiet.in">click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col social-icons d-none d-sm-block">
                 <div class="facebook">
                     <a href="https://www.facebook.com/ecellkiet/"><span class="fa fa-facebook-f"></span></a>
@@ -988,5 +1010,24 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
         <script>
           AOS.init();
         </script>
+
+
+<script>
+    const popup = document.querySelector('.popup');
+    const close = document.querySelector('#abcde');
+
+    window.onload = function(){
+        setTimeout(function(){
+            popup.style.display = "block"
+
+            // time delay
+        }, 2000)
+    }
+
+  close.addEventListener('click', () => {
+      popup.style.display = "none";
+  })
+</script>
+
 </body>
 </html>

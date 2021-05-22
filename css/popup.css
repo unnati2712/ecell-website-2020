@@ -1,0 +1,108 @@
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    display:none;
+
+}
+
+.contentBox
+{
+    position: relative;
+    width: 600px;
+    height: 425px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contentBox .imgBx 
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox .imgBx::before
+{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: black;
+    border-radius: 50%;
+}
+
+.contentBox .imgBx img {
+    position: relative;
+    max-width: 250px;
+    z-index: 1;
+}
+
+.contentBox .content 
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox .content h3
+{
+    color: #333;
+    line-height: 1em;
+    font-weight: 300;
+    font-size: 2em;
+}
+.contentBox .content h2 
+{
+font-size: 4em;
+color: #ff4d54;
+line-height: 1em;
+}
+
+.contentBox .content p
+{
+    font-weight:700;
+     color: #000;
+}
+
+.contentBox .content a
+{
+display: inline-block;
+padding: 10px 20px;
+background: #ff4d54;
+color: white;
+margin-top: 15px;
+text-decoration: none;
+border-radius: 10px;
+}
+
+.close
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255) url(./close.jpeg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10; 
+}
+
+/*responsive*/
+
+@media screen {
+    
+}
