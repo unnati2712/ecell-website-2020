@@ -60,19 +60,20 @@
     color: #333;
     line-height: 1em;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 .contentBox .content h2 
 {
-font-size: 4em;
+font-size: 1.2em;
 color: #ff4d54;
-line-height: 1em;
+line-height: .8em;
 }
 
 .contentBox .content p
 {
     font-weight:700;
      color: #000;
+     font-size:0.8em;
 }
 
 .contentBox .content a
@@ -99,6 +100,9 @@ border-radius: 10px;
     cursor: pointer;
     border-radius: 50%;
     z-index: 10; 
+}
+#playstore {
+    height:.8cm;
 }
 
 /*responsive*/
@@ -141,5 +145,8 @@ background: #fff;
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
+}
+.white{
+    background-color:white;
 }
 }
